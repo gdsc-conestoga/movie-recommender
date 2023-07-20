@@ -1,0 +1,13 @@
+Flask
+flask-restful
+gunicorn
+flask-cors
+pandas
+scikit-learn
+matplotlib
+scikit-image
+nltk
+seaborn
+streamlit
+pickle5
+numpy
