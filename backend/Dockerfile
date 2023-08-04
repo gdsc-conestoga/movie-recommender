@@ -5,4 +5,5 @@ RUN pip install --upgrade pip
 RUN pip install -r requirements.txt
 COPY . .
 RUN python3 ml-builder.py
-CMD ["python", "engine.py"]
+EXPOSE 5000
+CMD ["python", "api.py"]
